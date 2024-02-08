@@ -1,0 +1,47 @@
+body{
+    background-color: cadetblue;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .form-container, .card-container {
+    width: 400px;
+    padding: 20px;
+    margin: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+ 
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form label,button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #idCard {
+    background-color: skyblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align:left;
+    justify-content: center;
+  }
+  
+  .card-header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body p {
+    margin-bottom: 5px;
+  }
